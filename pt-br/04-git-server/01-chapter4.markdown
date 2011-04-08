@@ -105,7 +105,7 @@ The upside of using the HTTP protocol is that it’s easy to set up. Running the
 
 You can also serve your repositories read-only over HTTPS, which means you can encrypt the content transfer; or you can go so far as to make the clients use specific signed SSL certificates. Generally, if you’re going to these lengths, it’s easier to use SSH public keys; but it may be a better solution in your specific case to use signed SSL certificates or other HTTP-based authentication methods for read-only access over HTTPS.
 
-Another nice thing is that HTTP is such a commonly used protocol that corporate firewalls are often set up to allow traffic through this port.
+Outro detalhe bacana é que o HTTP é um protocolo tão comumente usado que os firewalls corporativos são configurados para permitir o trafego através dessa porta. 
 
 #### Os Contras ####
 
